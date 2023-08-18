@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div class="cmp-newsPortal">
+            <div class="cmp-newsPortal__container">
+                <section class="cmp-newsPortal__container__heading">
+                    <p class="cmp-newsPortal__container__heading--title">News Portal</p>
+                    <p class="cmp-newsPortal__container__heading--subtitle">Your custom News Portal with selected categories and updates!</p>
+                </section>
+                <section class="cmp-newsPortal__container__news">
+                    <div class="cmp-newsPortal__container__news__category">
+                        <span class="cmp-newsPortal__container__news__category--active" data-id="/top-headlines?country=us&category=business">US (Business)</span>
+                        <span data-id="/top-headlines?country=in&category=business">India (Business)</span>
+                        <span data-id="/everything?q=crypto&sortBy=publishedAt">Cryptocurrency</span>
+                        <span data-id="/top-headlines?sources=techcrunch">Techcrunch</span>
+                    </div>
+                    <div class="cmp-newsPortal__container__news__cards">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
